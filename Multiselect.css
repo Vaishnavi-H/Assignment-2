@@ -1,0 +1,123 @@
+
+.container{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 700px;
+    margin-left: 300px;
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    height: 150px;
+    overflow-y: scroll;
+}
+.ba{
+    padding:8px;
+    cursor: pointer;
+}
+.ba:hover{
+    background-color: #d7d7c1;
+}
+
+    
+.box input {
+    width: 50%;
+    min-width: 50%;
+    border: none;
+    border-radius: 5px;
+    padding: 14px;
+    padding-left: 14px;
+    outline: none;
+  }
+    
+    
+
+
+.b2{
+    width:20px;
+    height: 20px;
+    position: absolute;
+    right:390px;
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+.box{
+    display: flex;
+    margin-left: 300px;
+    margin-top: 70px;
+    width: 50%;
+    max-width: 50%;
+    overflow:scroll ;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    padding-left: 14px;
+    border-radius: 5px;
+  
+    border: 2px solid rgb(26, 99, 182);
+ 
+  }
+   
+
+.ui{
+display: flex;
+align-items: center;
+align-content: center;
+margin: 5px 0;
+margin-right: 5px;
+
+padding-right: 5px;
+border: 1px solid #d7d7c1;
+border-radius: 5px;
+background-color: #d7d7c1;
+white-space: nowrap;
+color: black;
+}
+.ui #fig2 {
+    display: flex;
+    padding: 2px;
+    border: none;
+    cursor: pointer;
+    color: black;
+  }
+
+.fa{
+    font-size: 12px;
+   
+}
+span{
+    margin-left: 920px;
+    margin-top: 14px;
+    position: absolute;
+   
+}
+.btn3{
+
+    height: 20px;
+
+    background-color: white;
+    border: none;
+    position: absolute;
+    
+    cursor: pointer;
+}
+#fig{
+    font-size: 20px;
+    font-weight: 600;
+    color:#6e6e68;
+}
+ #fig1{
+    font-size: 15px;
+    font-weight: 0;
+    color: #6e6e68;
+}
+#fig2{
+    font-size: 12px;
+    align-items: center;
+    cursor: pointer;
+}
